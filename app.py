@@ -9,8 +9,8 @@ from urllib.parse import urlparse
 from serpapi import GoogleSearch
 
 # Set your API keys here
-COHERE_API_KEY = "7iyH2qxz0Wl7FaBvRK2YGD9CjPss007a2WB1zGxZ"
-SERPAPI_KEY = "1908134f77fbf29b5791de693a4a093b285e18d8cdaa4f90c92f0d1b18aa3889"
+COHERE_API_KEY = "your_api_key_here"
+SERPAPI_KEY = "your_api_key"
 
 co = cohere.Client(COHERE_API_KEY)
 
